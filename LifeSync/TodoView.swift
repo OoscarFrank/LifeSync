@@ -141,7 +141,6 @@ struct TodoView: View {
                 }
                 .onMove(perform: move)
             }
-            .padding(.top)
             .navigationTitle("Todos")
             .toolbar {
                 Button(action: { showingAddTodo = true }) {
